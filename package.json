@@ -1,0 +1,29 @@
+{
+  "name": "book-review-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node index.ts",
+    "seed": "ts-node src/utils/seedDatabase.ts",
+    "build": "tsc",
+    "serve": "node dist/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@graphql-tools/utils": "^10.5.3",
+    "apollo-server": "^3.13.0",
+    "dotenv": "^16.4.5",
+    "graphql": "^16.9.0",
+    "mongoose": "^8.5.3"
+  },
+  "devDependencies": {
+    "@types/graphql-resolvers": "^0.3.2",
+    "@types/mongoose": "^5.11.96",
+    "@types/node": "^22.3.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  }
+}
